@@ -7,3 +7,4 @@ pip install -v -e .
 
 cd ..
 python3 script.py
+python3 test.py
