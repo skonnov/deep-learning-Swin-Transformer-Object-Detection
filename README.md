@@ -22,6 +22,16 @@ git lfs pull
 
 
 ## step 3:
+* ### Option 1:
+
+Use image from github packages:
+```sh
+docker run -v $PWD/workdir:/workdir ghcr.io/skonnov/deep-learning:1.0
+```
+
+
+* ### Option 2:
+
 To build image
 ```sh
 docker build -t deep-learning:1.0 .
